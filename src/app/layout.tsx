@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
-import CyanCursor from "@/components/cursor";
+// import CyanCursor from "@/components/cursor";
 import { ThemeProvider } from "@/components/theme-provider";
 // import Providers from "@/app/providers";
 import Providers from "@/app/providers";
@@ -38,7 +38,7 @@ export default function RootLayout({
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem={false}>
             <Header />
             {children}
-              <CyanCursor />
+              {/* <CyanCursor /> */}
           <Footer />
            </ThemeProvider>
           </Providers>

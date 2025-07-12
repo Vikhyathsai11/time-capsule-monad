@@ -16,7 +16,7 @@ export default function Scene() {
          {/* @ts-ignore */}
         <pointLight position={[10, 10, 10]} intensity={1} />
         <FloatingCapsule />
-        <Environment preset="night" />
+        <Environment preset ="night" />
       </Canvas>
     </div>
   )

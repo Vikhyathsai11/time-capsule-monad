@@ -1,13 +1,17 @@
 @import "tailwindcss";
 
-* {
+/* * {
   cursor: none !important;
+} */
+
+body, html {
+  cursor: default;
 }
 
-/* Ensure interactive elements also hide cursor */
+/* Ensure interactive elements also hide cursor
 a, button, input, textarea, select, [role="button"], .cursor-pointer {
   cursor: none !important;
-}
+} */
 
 .demo-content {
   @apply min-h-screen p-8 space-y-8;
